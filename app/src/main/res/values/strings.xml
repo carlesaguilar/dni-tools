@@ -2,6 +2,7 @@
     <string name="app_name">DNI Validator</string>
     <string name="validate_document">Validate DNI</string>
     <string name="click_to_validate">Click to validate</string>
+    <string name="click_to_generate">Click to generate</string>
     <string name="valid_document">Valid document</string>
     <string name="invalid_document">Invalid document</string>
 </resources>

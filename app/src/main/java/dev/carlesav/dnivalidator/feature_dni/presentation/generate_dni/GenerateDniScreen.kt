@@ -78,7 +78,7 @@ fun GenerateDniScreen(
                 backgroundColor = Color.White
             )
         ) {
-            Text("Click to generate")
+            Text(stringResource(id = R.string.click_to_generate))
         }
 
         if (viewModel.dniResultState.value.isGenerated) {
