@@ -2,9 +2,10 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="light_color">#C12024</color>
-    <color name="dark_color">#85101C</color>
+    <color name="top_app_bar_color">#F29F05</color>
+    <color name="light_color">#F29F05</color>
+    <color name="dark_color">#F28705</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="valid_document_color">#333</color>
 </resources>

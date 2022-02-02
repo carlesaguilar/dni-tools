@@ -90,7 +90,7 @@ fun GenerateDniScreen(
                 ),
                 fontWeight = FontWeight.Bold,
                 color = if (viewModel.dniResultState.value.isValid) {
-                    Color.Green
+                    colorResource(id = R.color.valid_document_color)
                 } else {
                     Color.White
                 },
