@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Validar DNI</string>
+    <string name="validate_document">Validar DNI</string>
+    <string name="click_to_validate">Validar</string>
+    <string name="click_to_generate">Generar</string>
+    <string name="valid_document">Document vàlid</string>
+    <string name="invalid_document">Document invàlid</string>
+</resources>
