@@ -67,8 +67,10 @@ fun ValidateDniScreen(
                 .padding(top = 10.dp)
                 .testTag(TestTags.BTN_VALIDATE),
             onClick = {
-                scope.launch {
-                    viewModel.validateDni(dniText.value)
+                if (dniText.value.isNotBlank()) {
+                    scope.launch {
+                        viewModel.validateDni(dniText.value)
+                    }
                 }
             },
             colors = ButtonDefaults.textButtonColors(

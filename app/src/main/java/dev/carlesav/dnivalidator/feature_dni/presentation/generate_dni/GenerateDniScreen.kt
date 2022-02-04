@@ -69,8 +69,10 @@ fun GenerateDniScreen(
                 .padding(top = 10.dp)
                 .testTag(TestTags.BTN_GENERATE),
             onClick = {
-                scope.launch {
-                    viewModel.generateDni(dniText.value)
+                if (dniText.value.isNotBlank()) {
+                    scope.launch {
+                        viewModel.generateDni(dniText.value)
+                    }
                 }
             },
             colors = ButtonDefaults.textButtonColors(
